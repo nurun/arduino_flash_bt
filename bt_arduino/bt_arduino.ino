@@ -1,5 +1,6 @@
 // This communication works between paired mac (use '1234') running serproxy and Flash and leonardo
 // The softserial is neccisary, the serial does not work with the leonardo
+// The softserial is not needed on the Uno (so long as the USB is not connected)
 // Will test again with the lilypad to see if 
 
 #include <SoftwareSerial.h>
